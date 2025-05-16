@@ -148,29 +148,127 @@
 # \'	Single Quote
 # txt = 'It\'s alright.'
 # print(txt) 	
+
 # \\	Backslash
 # txt = "This will insert one \\ (backslash)."
 # print(txt) 	
+
 # \n	New Line	
 # txt = "Hello\nWorld!"
 # print(txt) 
+
 # \r	Carriage Return	
 # txt = "Hello\rWorld!"
 # print(txt) 
+
 # \t	Tab	
 # txt = "Hello\tWorld!"
 # print(txt)
+
 # \b	Backspace	
 #This example erases one character (backspace):
 # txt = "Hello \bWorld!"
 # print(txt) 
+
 # \f	Form Feed	
 # move to new page or erase the screen
+
 # \ooo	Octal value	
 #A backslash followed by three integers will result in a octal value:
 # txt = "\110\145\154\154\157"
 # print(txt)                    - doubt (not understood what it does or is used for)
+
 # \xhh	Hex value
 # A backslash followed by an 'x' and a hex number represents a hex value:
+
 # txt = "\x48\x65\x6c\x6c\x6f"
 # print(txt)                  -same doubt
+
+# String capitalize() Method
+# txt = "python is FUN!"
+# x = txt.capitalize()
+# print (x)
+
+# String casefold() Method
+# txt = "Hello, And Welcome To My World!"
+# x = txt.casefold()
+# print(x)
+
+# String center() Method
+# txt = "banana"
+# x = txt.center(20) space of 20 chras
+# print(x)
+
+# String count() Method  Returns the number of times a specified value occurs in a string
+# txt = "I love apples, apple are my favorite fruit"
+# x = txt.count("apple")
+# print(x)
+
+# String encode() Method   Returns an encoded version of the string
+# txt = "My name is Ståle"
+# x = txt.encode()
+# print(x)
+
+# String endswith() Method    Returns true if the string ends with the specified value
+# txt = "Hello, welcome to my world."
+# x = txt.endswith(".")
+# print(x)
+
+# expandtabs()	Sets the tab size of the string
+# txt = "H\te\tl\tl\to"
+# x =  txt.expandtabs(2)
+# print(x)
+
+# String find() Method
+# txt = "Hello, welcome to my world."
+# x = txt.find("welcome")
+# print(x)
+
+# format()	Formats specified values in a string
+# txt = "For only {price:.2f} dollars!"
+# print(txt.format(price = 49))
+
+# format_map()	Formats specified values in a string
+
+# String index() Searches the string for a specified value and returns the position of where it was found
+# txt = "Hello, welcome to my world."
+# x = txt.index("welcome")
+# print(x)
+
+# txt = "Hello, welcome to my world."
+# x = txt.index("e")
+# print(x)
+
+# isalnum()	Returns True if all characters in the string are alphanumeric
+# txt = "Company12"
+# x = txt.isalnum()
+# print(x)
+
+# String isalpha() Returns True if all characters in the string are in the alphabet
+# txt = "CompanyX"
+# x = txt.isalpha()
+# print(x)
+
+# isascii()	Returns True if all characters in the string are ascii characters
+# txt = "Company123"
+# x = txt.isascii()
+# print(x)
+# ascii- letterm, symols, numbers
+
+# isdecimal()	Returns True if all characters in the string are decimals
+# txt = "1234"
+# x = txt.isdecimal()
+# print(x)
+
+# isdigit()	Returns True if all characters in the string are digits
+# txt = "50800"
+# x = txt.isdigit()
+# print(x)
+
+# isidentifier()	Returns True if the string is an identifier
+# txt = "Demo"
+# x = txt.isidentifier()
+# print(x)
+
+# identifier- (a-z),(0-9),(__)
+
