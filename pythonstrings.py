@@ -77,8 +77,29 @@
 # total no of chars 12
 # 1st index is 6 because to not print "hello, "
 # aaab
-b = "Hello, World!"
-print(b[-6:0])
-
+# b = "Hello, World!"
+# print(b[-6:0])
 
 # this is a new change
+
+# Upper Case
+# a = "Hello, World!"
+# print(a.upper()) 
+
+# lower case
+# a = "Hello, World!"
+# print(a.lower())
+
+# Remove Whitespace
+# a = " Hello, World! "
+# print(a.strip()) # returns "Hello, World!"
+
+# Replace String
+# a = "Hello, World!"
+# print(a.replace("H", "J"))
+
+# Split String
+# a = "Hello, World!"
+# print(a.split(",")) # returns ['Hello', ' World!']
+
+
