@@ -40,3 +40,71 @@
 #the floor division // rounds the result down to the nearest whole numbe
 
 # Python Assignment Operators
+
+# =   x = 5   x = 5
+# x = 5
+# print(x)
+
+# # +=	x += 3	x = x + 3
+# x = 5
+# x += 3
+# print(x)	
+
+# # -=	x -= 3	x = x - 3
+# x = 5
+# x -= 3
+# print(x)
+
+# # *=	x *= 3	x = x * 3	
+# x = 5
+# x *= 3
+# print(x)
+
+# # /=	x /= 3	x = x / 3	
+# x = 5
+# x /= 3
+# print(x)
+
+# # %=	x %= 3	x = x % 3
+# x = 5
+# x%=3
+# print(x)	
+
+# # //=	x //= 3	x = x // 3	
+# x = 5
+# x//=3
+# print(x)
+
+# # **=	x **= 3	x = x ** 3	
+# x = 5
+# x **= 3
+# print(x)
+
+# # &=	x &= 3	x = x & 3	
+# x = 5
+# x &= 3
+# print(x)
+
+# # |=	x |= 3	x = x | 3	
+# x = 5
+# x |= 3
+# print(x)
+
+# # ^=	x ^= 3	x = x ^ 3	
+# x = 5
+# x ^= 3
+# print(x)
+
+# # >>=	x >>= 3	x = x >> 3	
+# x = 5
+# x >>= 3
+# print(x)
+
+# # <<=	x <<= 3	x = x << 3	
+# x = 5
+# x >>= 3
+# print(x)
+
+# # :=	print(x := 3)
+# # print(x)
+# print(x := 3)
