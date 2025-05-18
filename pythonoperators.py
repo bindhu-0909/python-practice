@@ -212,3 +212,49 @@
 # >>	Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off	x >> 
 # print(8 >> 2)
 
+# Operator Precedence
+# print((6 + 3) - (6 + 3))
+# print(100 + 5 * 3)
+
+
+
+# ()	Parentheses	
+# print((6 + 3) - (6 + 3))
+
+# **	Exponentiation	
+# print(100 - 3 ** 3)
+
+# +x  -x  ~x	Unary plus, unary minus, and bitwise NOT	
+# print(100 + ~3)
+
+# *  /  //  %	Multiplication, division, floor division, and modulus	
+# print(100 + 5 * 3)
+
+# +  -	Addition and subtraction	
+# print(100 - 5 * 3)
+
+# <<  >>	Bitwise left and right shifts	
+# print(8 >> 4 - 2)
+
+# &	Bitwise AND	
+# print(6 & 2 + 1)
+
+# ^	Bitwise XOR	
+# print(6 ^ 2 + 1)
+
+# |	Bitwise OR
+# print(6 | 2 + 1)
+
+# ==  !=  >  >=  <  <=  is  is not  in  not in 	Comparisons, identity, and membership operators	
+# print(5 == 4 + 1)
+
+# not	Logical NOT	
+# print(not 5 == 5)
+
+# and	AND	
+# print(1 or 2 and 3)
+
+# or	OR
+# print(1 or 2 and 3)
+
+# print(5 + 4 - 7 + 3)
