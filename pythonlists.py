@@ -46,3 +46,34 @@
 # Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 # Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 # Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+# Access Items
+# thislist = ["apple", "banana", "cherry"]
+# print(thislist[1])
+
+# Negative Indexing
+# thislist = ["apple", "banana", "cherry"]
+# print(thislist[-1])
+
+# Range of Indexes
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[2:5])
+
+# The search will start at index 2 (included) and end at index 5 (not included).
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[:4])
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[2:])
+
+# Range of Negative Indexes
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[-4:-1])
+
+# Check if Item Exists
+# thislist = ["apple", "banana", "cherry"]
+# if "apple" in thislist:
+#   print("Yes, 'apple' is in the fruits list")
