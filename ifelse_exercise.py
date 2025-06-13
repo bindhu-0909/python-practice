@@ -23,9 +23,13 @@ def age_finder(birth_year):
 def eldest(first_person_year, second_person_year):
 
     # coverting person year to person age
+
+for this:
+
     first_person_age = age_finder(first_person_year)
     second_person_age = age_finder(second_person_year)
-    
+     
+    # find who is older
     # using found age from above for the if else logic
     if first_person_age < second_person_age:
         print("Second person is the eldest")
@@ -34,6 +38,15 @@ def eldest(first_person_year, second_person_year):
     else:
         print("Both are of same age")    
 
+    # Age difference
+    diffrence = abs(first_person_age - second_person_age) #abs() gives the positive difference 
+    print(f"The age between them is {diffrence} years.")
+
+    # Option to stop or continue
+    choice = input("Do you want to ckeck again? (yes/no): ")
+    if choice.lower() != 'yes':
+        print("Thank you for using Age Finder App!")
+        break     # exit the loop
 
 eldest(person_1, person_2)
 
